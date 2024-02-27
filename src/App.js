@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react"
+import HomePage from "./pages/home_page/home"
+import image1 from "../src/assect/bg1.jpg"
+import image2 from "../src/assect/bg2.jpg"
+import image3 from "../src/assect/bg3.jpg"
+import image4 from "../src/assect/bg4.jpg"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+export default function App(){
+
+  return(
+    <>
+    <HomePage />
+    
+   
+  
+    </>
+  )
 }
-
-export default App;
